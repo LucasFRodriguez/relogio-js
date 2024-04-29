@@ -7,6 +7,32 @@
     <title>Relógio Digital</title>
 </head>
 <body>
-    
+    <ul id="relogio">
+        <li class="item-circulo" style="--clr:#d9ff02;">
+            <svg>
+                <circle cx="70" cy="70" r="70" ></circle>
+                <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="horas">00</div>
+        </li>
+        <li class="item-circulo" style="--clr:#bb00ff;">
+            <svg>
+                <circle cx="70" cy="70" r="70" ></circle>
+                <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutos">00</div>
+        </li>
+        <li class="item-circulo" style="--clr:#ff9100;">
+            <svg>
+                <circle cx="70" cy="70" r="70" ></circle>
+                <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="segundos">00</div>
+        </li>
+        <li class="ap">
+            <div id="ampm" >AM</div>
+        </li>
+    </ul>
+    <script src="script.js" ></script>
 </body>
 </html>

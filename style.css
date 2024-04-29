@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+}
+
+#relogio{
+    display: flex;
+    gap: 40px;
+}
+
+.item-circulo{
+    position: relative;
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.item-circulo svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#horas , #minutos , #segundos {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#horas span , #minutos span , #segundos span{
+    display: block;
+    padding-top: 10px;
+    font-size: .65em;
+    letter-spacing: .1em;
+}
+
+#relogio .ap{
+    list-style: none;
+}
